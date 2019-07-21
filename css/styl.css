@@ -48,3 +48,17 @@
   justify-content: center;
   align-items: center;
 }
+#designText{
+  display: none;
+}
+#developmenttext{
+  display: none;
+}
+#managementtexts{
+  display: none;
+}
+.social{
+  text-align: center;
+  color: white;
+  background-color: black;
+}

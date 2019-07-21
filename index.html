@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href ="css/styl.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
     <title>Delani Studio</title>
   </head>
   <body>
@@ -35,16 +40,25 @@
       <br>
       <div class="row">
         <div class="column">
-          <img src="services_icons/design_icon.png" alt="">
-          <p>DESIGN</P>
+          <img src="services_icons/design_icon.png" alt="" id="design">
+          <p id="designheader">DESIGN</P>
+            <p class="click1" id="designText">Our design practice offers a full range of <br>services
+               including brand strategy, interaction and visual design and user<br> experience testing.
+              Throughout your project, our designers create and implement visual<br> design and workflows,
+               solicit user feedback and work with you to make sure what gets built <br>is what is needed.</p>
         </div>
         <div class="column">
-          <img src="services_icons/dev_icon.png" alt="">
-          <p>DEVELOPMENT</P>
+          <img src="services_icons/dev_icon.png" alt="" id="development">
+          <p  id="developmentheader">DEVELOPMENT</P>
+            <p class="click2" id="developmenttext">All engineers are fluent in the latest enterprise, mobile and web development technologies.
+They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.
+</p>
         </div>
         <div class="column">
-          <img src="services_icons/product_icon.png" alt="">
-          <p>PRODUCT MANAGEMENT</P>
+          <img src="services_icons/product_icon.png" alt="" id="management">
+          <p id="managementheader">PRODUCT MANAGEMENT</P>
+            <pclass="click3" id="managementtexts">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.
+This iterative process allows for changes as business requirements evolve.</p>
         </div>
       </div>
     </div>
@@ -52,51 +66,65 @@
       <h2>PORTFOLIO</h2>
       <div class="row">
         <div class="col-md-3">
-          <img src="portfolio/work4.jpg" alt="" width="200px">
+          <img src="portfolio/work4.jpg" alt="" width="200px" id="img1">
         </div>
         <div class="col-md-3">
-          <img src="portfolio/work3.jpg" alt="" width="200px">
+          <img src="portfolio/work3.jpg" alt="" width="200px" id="img2">
         </div>
         <div class="col-md-3">
-          <img src="portfolio/work2.jpg" alt="" width="200px">
+          <img src="portfolio/work2.jpg" alt="" width="200px" id="img3">
         </div>
         <div class="col-md-3">
-          <img src="portfolio/work1.jpg" alt="" width="200px">
+          <img src="portfolio/work1.jpg" alt="" width="200px" id="img4">
         </div>
       </div>
       <br>
       <div class="row">
         <div class="col-md-3">
-          <img src="portfolio/work5.jpg" alt="" width="200px">
+          <img src="portfolio/work5.jpg" alt="" width="200px" id="img5">
         </div>
         <div class="col-md-3">
-          <img src="portfolio/work6.jpg" alt="" width="200px">
+          <img src="portfolio/work6.jpg" alt="" width="200px" id="img6">
         </div>
         <div class="col-md-3">
-          <img src="portfolio/work7.jpg" alt="" width="200px">
+          <img src="portfolio/work7.jpg" alt="" width="200px" id="img7">
         </div>
         <div class="col-md-3">
-          <img src="portfolio/work8.jpg" alt="" width="200px">
+          <img src="portfolio/work8.jpg" alt="" width="200px" id="img8">
         </div>
       </div>
     </div>
     <br>
     <div class="container-fluid contact">
       <h3>contact us</h3>
-      <form class="form-inline">
+      <form class="form-inline" id="myform">
         <div class="form-group">
-          <input type="text" class="form-control" id="name" placeholder="Name">
+          <input type="text" class="form-control" id="name" placeholder="Name" style = "background-color: rgba(0, 0, 0, 0)">
         </div>
         <div class="form-group">
-          <input type="email" class="form-control" id="mail" placeholder="Email">
+          <input type="email" class="form-control" id="mail" placeholder="Email" style = "background-color: rgba(0, 0, 0, 0)">
         </div>
       </form>
       <br>
       <form class="form-inline">
         <div class="form-group">
-          <textarea class="form-control" id="textarea" rows="3" placeholder="your message here...."></textarea>
+          <textarea class="form-control" id="textarea" rows="3" placeholder="your message here...." style = "background-color: rgba(0, 0, 0, 0)"></textarea>
         </div>
       </form>
+    </div>
+    <div class="container-fluid social">
+        <br><br>
+        <img src="social_icons/twitter.png" alt="">
+        <img src="social_icons/dribble.png" alt="">
+        <img src="social_icons/facebook.png" alt="">
+        <img src="social_icons/g_plus.png" alt="">
+        <img src="social_icons/skype.png" alt="">
+        <img src="social_icons/stumble_upon.png" alt="">
+        <img src="social_icons/pinterest.png" alt="">
+        <img src="social_icons/flickr.png" alt="">
+        <img src="social_icons/you_tube.png" alt="">
+        <p>DELANI STUDIOS</p>
+        <p>2019</p>
     </div>
   </body>
 </html>
