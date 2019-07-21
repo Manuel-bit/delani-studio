@@ -1,7 +1,21 @@
-.cont1 {
-  position: relative;
+
+.intro{
+  background-image: url("/home/emmanuel/Desktop/moringa-school-projects/delani-studio/backgrounds/h_img.jpg");
+  background-size: cover;
+  height: 100vh;
   text-align: center;
-  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  3
+
+}
+
+.sect1 {
+  color: black;
+  background-image: url("css/h_img.jpg");
+  text-align: center;
 }
 .centered {
   position: absolute;
@@ -57,4 +71,7 @@ h5{
 }
 .form{
   color: white;
+}
+.cont3{
+  display: flex;
 }
