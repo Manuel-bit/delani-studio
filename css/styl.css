@@ -1,5 +1,5 @@
 .intro{
-  background-image: url("/home/emmanuel/Desktop/moringa-school-projects/delani-studio/backgrounds/h_img.jpg");
+  background-image: url("../backgrounds/h_img.jpg");
   background-size: cover;
   text-align: center;
   display: flex;
@@ -12,7 +12,7 @@
   text-align: center;
 }
 .services{
-  background-image: url("/home/emmanuel/Desktop/moringa-school-projects/delani-studio/backgrounds/s_image.jpg");
+  background-image: url("../backgrounds/s_image.jpg");
   height: 50vh;
   background-size: cover;
   text-align: center;
@@ -39,7 +39,7 @@
   display: flex;
 }
 .contact{
-  background-image: url("/home/emmanuel/Desktop/moringa-school-projects/delani-studio/backgrounds/c_image.jpg");
+  background-image: url("../backgrounds/c_image.jpg");
   text-align: center;
   height: 70vh;
   background-size: cover;
