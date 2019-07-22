@@ -6,8 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href ="css/styl.css" rel="stylesheet" type="text/css">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/632f9a0a3e874b3f30d2001f2/b20c021d1d1dec0254ad7d7eb.js");</script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
     <title>Delani Studio</title>
   </head>
@@ -41,7 +40,7 @@
       <br>
       <div class="row">
         <div class="column">
-          <img src="services_icons/design_icon.png" alt="" id="design">
+          <img src="services_icons/design_icon.png" alt="" id="design" class="click1">
           <p id="designheader">DESIGN</P>
             <p class="click1" id="designText">Our design practice offers a full range of <br>services
                including brand strategy, interaction and visual design and user<br> experience testing.
@@ -49,16 +48,16 @@
                solicit user feedback and work with you to make sure what gets built <br>is what is needed.</p>
         </div>
         <div class="column">
-          <img src="services_icons/dev_icon.png" alt="" id="development">
+          <img src="services_icons/dev_icon.png" alt="" id="development" class="click2">
           <p  id="developmentheader">DEVELOPMENT</P>
             <p class="click2" id="developmenttext">All engineers are fluent in the latest enterprise, mobile and web development technologies.
 They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.
 </p>
         </div>
         <div class="column">
-          <img src="services_icons/product_icon.png" alt="" id="management">
+          <img src="services_icons/product_icon.png" alt="" id="management" class="click3">
           <p id="managementheader">PRODUCT MANAGEMENT</P>
-            <pclass="click3" id="managementtexts">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.
+            <p class="click3" id="managementtexts">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.
 This iterative process allows for changes as business requirements evolve.</p>
         </div>
       </div>
@@ -111,6 +110,7 @@ This iterative process allows for changes as business requirements evolve.</p>
         <div class="form-group">
           <textarea class="form-control" id="textarea" rows="3" placeholder="your message here...." style = "background-color: rgba(0, 0, 0, 0)"></textarea>
         </div>
+        <button type="button" class="btn btn-primary" id="submit"> submit</button>
       </form>
     </div>
     <div class="container-fluid social">
